@@ -8,14 +8,6 @@ export default class TreeView extends Component {
     data: null
   };
 
-  state = {
-    renderRecursively: true
-  };
-
-  toggleRender = () => {
-    this.setState(state => ({ renderRecursively: ! state.renderRecursively }));
-  };
-
   renderRecursively() {
     if ( ! this.props.data.label) return null;
     return this.renderBranchRecursively(this.props.data);
@@ -69,26 +61,14 @@ export default class TreeView extends Component {
     }
 
     return (
-      <div>
+      <div className="split-panel">
         <div>
-          <button onClick={ this.toggleRender }>
-            {
-              this.state.renderRecursively ?
-                "Render iteratively"
-                :
-                "Render recursively"
-            }
-          </button>
+          { this.renderRecursively() }
         </div>
 
-        <br/>
-
-        {
-          this.state.renderRecursively ?
-            this.renderRecursively()
-            :
-            this.renderIteratively()
-        }
+        <div>
+          { this.renderIteratively() }
+        </div>
       </div>
     );
   }

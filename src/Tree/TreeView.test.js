@@ -28,13 +28,15 @@ describe('with data', () => {
     wrapper = null;
   });
 
+  it('renders both trees', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it('renders recursively', () => {
     expect(wrapper.instance().renderRecursively()).toMatchSnapshot();
   });
 
-  it('render iteratively', () => {
+  it('renders iteratively', () => {
     expect(wrapper.instance().renderIteratively()).toMatchSnapshot();
   });
-
-  // TODO: Test render switch button
 });
