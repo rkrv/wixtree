@@ -35,4 +35,6 @@ describe('with data', () => {
   it('render iteratively', () => {
     expect(wrapper.instance().renderIteratively()).toMatchSnapshot();
   });
+
+  // TODO: Test render switch button
 });

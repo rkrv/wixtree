@@ -8,6 +8,14 @@ export default class TreeView extends Component {
     data: null
   };
 
+  state = {
+    renderRecursively: true
+  };
+
+  toggleRender = () => {
+    this.setState(state => ({ renderRecursively: ! state.renderRecursively }));
+  };
+
   renderRecursively() {
     if ( ! this.props.data.label) return null;
     return this.renderBranchRecursively(this.props.data);
@@ -60,6 +68,28 @@ export default class TreeView extends Component {
       return MSG_NO_DATA;
     }
 
-    return this.renderRecursively();
+    return (
+      <div>
+        <div>
+          <button onClick={ this.toggleRender }>
+            {
+              this.state.renderRecursively ?
+                "Render iteratively"
+                :
+                "Render recursively"
+            }
+          </button>
+        </div>
+
+        <br/>
+
+        {
+          this.state.renderRecursively ?
+            this.renderRecursively()
+            :
+            this.renderIteratively()
+        }
+      </div>
+    );
   }
 }
