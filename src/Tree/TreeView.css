@@ -1,0 +1,7 @@
+.tree-branch {
+    margin-left: 1rem;
+}
+
+.tree-branch::before {
+    content: '- ';
+}

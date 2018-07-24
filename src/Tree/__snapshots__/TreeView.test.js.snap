@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with data render iteratively 1`] = `
+Array [
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": " - ",
+              }
+        }
+    />
+    Root node
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": " - ",
+              }
+        }
+    />
+    Whispurr
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Anderson Pooper
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Miraclaw
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Katy Purry
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": " - ",
+              }
+        }
+    />
+    Puma Thurman
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": " - ",
+              }
+        }
+    />
+    Fleas Witherspoon
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Cat-titude
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Thunder Paws
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Purrfect
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": "&nbsp;&nbsp; - ",
+              }
+        }
+    />
+    Chairman Meow
+    <br />
+</Unknown>,
+  <Unknown>
+    <span
+        dangerouslySetInnerHTML={
+            Object {
+                "__html": " - ",
+              }
+        }
+    />
+    Demi Meower
+    <br />
+</Unknown>,
+]
+`;
+
+exports[`with data renders recursively 1`] = `
+<div
+  className="tree-branch"
+>
+  Root node
+  <div
+    className="tree-branch"
+  >
+    Demi Meower
+  </div>
+  <div
+    className="tree-branch"
+  >
+    Fleas Witherspoon
+    <div
+      className="tree-branch"
+    >
+      Chairman Meow
+    </div>
+    <div
+      className="tree-branch"
+    >
+      Cat-titude
+      <div
+        className="tree-branch"
+      >
+        Purrfect
+      </div>
+      <div
+        className="tree-branch"
+      >
+        Thunder Paws
+      </div>
+    </div>
+  </div>
+  <div
+    className="tree-branch"
+  >
+    Puma Thurman
+  </div>
+  <div
+    className="tree-branch"
+  >
+    Whispurr
+    <div
+      className="tree-branch"
+    >
+      Miraclaw
+      <div
+        className="tree-branch"
+      >
+        Katy Purry
+      </div>
+    </div>
+    <div
+      className="tree-branch"
+    >
+      Anderson Pooper
+    </div>
+  </div>
+</div>
+`;
