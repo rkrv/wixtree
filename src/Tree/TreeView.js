@@ -9,7 +9,8 @@ const MODE_ITERATIVE = 'MODE_ITERATIVE';
 
 export default class TreeView extends Component {
   static defaultProps = {
-    data: null
+    data: null,
+    onAdd: () => {}
   };
 
   walkRecursively(node, depth = 0) {
@@ -61,7 +62,16 @@ export default class TreeView extends Component {
     }
 
     return nodes.map(
-      (node, i) => <TreeNode key={ i } depth={ node.depth } data={ node.data } />
+      (node, i) => {
+        return (
+          <TreeNode
+            key={ i }
+            depth={ node.depth }
+            data={ node.data }
+            onAdd={ this.props.onAdd }
+          />
+        )
+      }
     );
   }
 
