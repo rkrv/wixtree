@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TreeView from './TreeView';
 import treeJson from './tree';
 
 export default class TreeContainer extends Component {
@@ -12,7 +13,7 @@ export default class TreeContainer extends Component {
 
   render() {
     return (
-      null
+      <TreeView data={ this.state.data } />
     );
   }
 }
