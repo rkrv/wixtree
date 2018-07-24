@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import TreeNode from './TreeNode';
 import './TreeView.css';
 
 export const MSG_NO_DATA = 'No tree data is loaded.';
@@ -10,20 +11,17 @@ export default class TreeView extends Component {
 
   renderRecursively() {
     if ( ! this.props.data.label) return null;
-    return this.renderBranchRecursively(this.props.data);
+    return this.renderNodeRecursively(this.props.data);
   }
 
-  renderBranchRecursively(node) {
-    return (
-      <div className="tree-branch" key={ node.label }>
-        { node.label }
+  renderNodeRecursively(node, depth = 0, key = 0) {
+    const out = [];
+    let counter = key;
 
-        {
-          !! node.children.length &&
-          node.children.map(node => this.renderBranchRecursively(node))
-        }
-      </div>
-    );
+    out.push(<TreeNode key={ counter++ } depth={ depth } data={ node } />);
+    out.push(...node.children.map(child => this.renderNodeRecursively(child, depth + 1, counter++)));
+
+    return out;
   }
 
   renderIteratively() {
@@ -31,10 +29,13 @@ export default class TreeView extends Component {
 
     const queue = [{ depth: 0, data: this.props.data }];
     const nodes = [];
+    let counter = 0;
 
     while (queue.length) {
       const node = queue.shift();
-      nodes.push(node);
+
+      nodes.push(<TreeNode key={ counter } depth={ node.depth } data={ node.data } />);
+      counter++;
 
       if (node.data.children.length) {
         const children = node.data.children.map(child => ({ depth: node.depth + 1, data: child }));
@@ -42,17 +43,7 @@ export default class TreeView extends Component {
       }
     }
 
-    return nodes.map(node => {
-      let spacing = Array(node.depth + 1).join('&nbsp;&nbsp;') + ' - ';
-
-      return (
-        <Fragment key={ node.data.label }>
-          <span dangerouslySetInnerHTML={ { __html: spacing } } />
-          { node.data.label }
-          <br/>
-        </Fragment>
-      );
-    });
+    return nodes;
   }
 
   render() {

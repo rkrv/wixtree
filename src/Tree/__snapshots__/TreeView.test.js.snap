@@ -1,440 +1,439 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with data renders both trees 1`] = `
-<div
-  className="split-panel"
->
-  <div>
-    <div
-      className="tree-branch"
-      key="Root node"
-    >
-      Root node
-      <div
-        className="tree-branch"
-        key="Demi Meower"
-      >
-        Demi Meower
-      </div>
-      <div
-        className="tree-branch"
-        key="Fleas Witherspoon"
-      >
-        Fleas Witherspoon
-        <div
-          className="tree-branch"
-          key="Chairman Meow"
-        >
-          Chairman Meow
-        </div>
-        <div
-          className="tree-branch"
-          key="Cat-titude"
-        >
-          Cat-titude
-          <div
-            className="tree-branch"
-            key="Purrfect"
-          >
-            Purrfect
-          </div>
-          <div
-            className="tree-branch"
-            key="Thunder Paws"
-          >
-            Thunder Paws
-          </div>
-        </div>
-      </div>
-      <div
-        className="tree-branch"
-        key="Puma Thurman"
-      >
-        Puma Thurman
-      </div>
-      <div
-        className="tree-branch"
-        key="Whispurr"
-      >
-        Whispurr
-        <div
-          className="tree-branch"
-          key="Miraclaw"
-        >
-          Miraclaw
-          <div
-            className="tree-branch"
-            key="Katy Purry"
-          >
-            Katy Purry
-          </div>
-        </div>
-        <div
-          className="tree-branch"
-          key="Anderson Pooper"
-        >
-          Anderson Pooper
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <React.Fragment
-      key="Root node"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": " - ",
-          }
-        }
-      />
-      Root node
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Demi Meower"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Demi Meower
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Fleas Witherspoon"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Fleas Witherspoon
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Chairman Meow"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Chairman Meow
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Cat-titude"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Cat-titude
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Purrfect"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Purrfect
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Thunder Paws"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Thunder Paws
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Puma Thurman"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Puma Thurman
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Whispurr"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Whispurr
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Miraclaw"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Miraclaw
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Katy Purry"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Katy Purry
-      <br />
-    </React.Fragment>
-    <React.Fragment
-      key="Anderson Pooper"
-    >
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-          }
-        }
-      />
-      Anderson Pooper
-      <br />
-    </React.Fragment>
-  </div>
-</div>
-`;
-
 exports[`with data renders iteratively 1`] = `
 Array [
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": " - ",
-              }
-        }
-    />
-    Root node
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Demi Meower
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Fleas Witherspoon
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Chairman Meow
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Cat-titude
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Purrfect
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Thunder Paws
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Puma Thurman
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Whispurr
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Miraclaw
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Katy Purry
-    <br />
-</Unknown>,
-  <Unknown>
-    <span
-        dangerouslySetInnerHTML={
-            Object {
-                "__html": "&nbsp;&nbsp;&nbsp;&nbsp; - ",
-              }
-        }
-    />
-    Anderson Pooper
-    <br />
-</Unknown>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [],
+                "label": "Demi Meower",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [],
+                    "label": "Chairman Meow",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [],
+                        "label": "Purrfect",
+                      },
+                      Object {
+                        "children": Array [],
+                        "label": "Thunder Paws",
+                      },
+                    ],
+                    "label": "Cat-titude",
+                  },
+                ],
+                "label": "Fleas Witherspoon",
+              },
+              Object {
+                "children": Array [],
+                "label": "Puma Thurman",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [],
+                        "label": "Katy Purry",
+                      },
+                    ],
+                    "label": "Miraclaw",
+                  },
+                  Object {
+                    "children": Array [],
+                    "label": "Anderson Pooper",
+                  },
+                ],
+                "label": "Whispurr",
+              },
+            ],
+            "label": "Root node",
+          }
+    }
+    depth={0}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Demi Meower",
+          }
+    }
+    depth={1}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [],
+                "label": "Chairman Meow",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [],
+                    "label": "Purrfect",
+                  },
+                  Object {
+                    "children": Array [],
+                    "label": "Thunder Paws",
+                  },
+                ],
+                "label": "Cat-titude",
+              },
+            ],
+            "label": "Fleas Witherspoon",
+          }
+    }
+    depth={1}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Chairman Meow",
+          }
+    }
+    depth={2}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [],
+                "label": "Purrfect",
+              },
+              Object {
+                "children": Array [],
+                "label": "Thunder Paws",
+              },
+            ],
+            "label": "Cat-titude",
+          }
+    }
+    depth={2}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Purrfect",
+          }
+    }
+    depth={3}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Thunder Paws",
+          }
+    }
+    depth={3}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Puma Thurman",
+          }
+    }
+    depth={1}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [],
+                    "label": "Katy Purry",
+                  },
+                ],
+                "label": "Miraclaw",
+              },
+              Object {
+                "children": Array [],
+                "label": "Anderson Pooper",
+              },
+            ],
+            "label": "Whispurr",
+          }
+    }
+    depth={1}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [],
+                "label": "Katy Purry",
+              },
+            ],
+            "label": "Miraclaw",
+          }
+    }
+    depth={2}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Katy Purry",
+          }
+    }
+    depth={3}
+/>,
+  <TreeNode
+    data={
+        Object {
+            "children": Array [],
+            "label": "Anderson Pooper",
+          }
+    }
+    depth={2}
+/>,
 ]
 `;
 
 exports[`with data renders recursively 1`] = `
-<div
-  className="tree-branch"
->
-  Root node
-  <div
-    className="tree-branch"
-  >
-    Demi Meower
-  </div>
-  <div
-    className="tree-branch"
-  >
-    Fleas Witherspoon
-    <div
-      className="tree-branch"
-    >
-      Chairman Meow
-    </div>
-    <div
-      className="tree-branch"
-    >
-      Cat-titude
-      <div
-        className="tree-branch"
-      >
-        Purrfect
-      </div>
-      <div
-        className="tree-branch"
-      >
-        Thunder Paws
-      </div>
-    </div>
-  </div>
-  <div
-    className="tree-branch"
-  >
-    Puma Thurman
-  </div>
-  <div
-    className="tree-branch"
-  >
-    Whispurr
-    <div
-      className="tree-branch"
-    >
-      Miraclaw
-      <div
-        className="tree-branch"
-      >
-        Katy Purry
-      </div>
-    </div>
-    <div
-      className="tree-branch"
-    >
-      Anderson Pooper
-    </div>
-  </div>
-</div>
+Array [
+  <TreeNode
+    data={
+        Object {
+            "children": Array [
+              Object {
+                "children": Array [],
+                "label": "Demi Meower",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [],
+                    "label": "Chairman Meow",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [],
+                        "label": "Purrfect",
+                      },
+                      Object {
+                        "children": Array [],
+                        "label": "Thunder Paws",
+                      },
+                    ],
+                    "label": "Cat-titude",
+                  },
+                ],
+                "label": "Fleas Witherspoon",
+              },
+              Object {
+                "children": Array [],
+                "label": "Puma Thurman",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [],
+                        "label": "Katy Purry",
+                      },
+                    ],
+                    "label": "Miraclaw",
+                  },
+                  Object {
+                    "children": Array [],
+                    "label": "Anderson Pooper",
+                  },
+                ],
+                "label": "Whispurr",
+              },
+            ],
+            "label": "Root node",
+          }
+    }
+    depth={0}
+/>,
+  Array [
+    <TreeNode
+      data={
+            Object {
+                  "children": Array [],
+                  "label": "Demi Meower",
+                }
+      }
+      depth={1}
+/>,
+  ],
+  Array [
+    <TreeNode
+      data={
+            Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "label": "Chairman Meow",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "label": "Purrfect",
+                        },
+                        Object {
+                          "children": Array [],
+                          "label": "Thunder Paws",
+                        },
+                      ],
+                      "label": "Cat-titude",
+                    },
+                  ],
+                  "label": "Fleas Witherspoon",
+                }
+      }
+      depth={1}
+/>,
+    Array [
+      <TreeNode
+        data={
+                Object {
+                        "children": Array [],
+                        "label": "Chairman Meow",
+                      }
+        }
+        depth={2}
+/>,
+    ],
+    Array [
+      <TreeNode
+        data={
+                Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [],
+                            "label": "Purrfect",
+                          },
+                          Object {
+                            "children": Array [],
+                            "label": "Thunder Paws",
+                          },
+                        ],
+                        "label": "Cat-titude",
+                      }
+        }
+        depth={2}
+/>,
+      Array [
+        <TreeNode
+          data={
+                    Object {
+                              "children": Array [],
+                              "label": "Purrfect",
+                            }
+          }
+          depth={3}
+/>,
+      ],
+      Array [
+        <TreeNode
+          data={
+                    Object {
+                              "children": Array [],
+                              "label": "Thunder Paws",
+                            }
+          }
+          depth={3}
+/>,
+      ],
+    ],
+  ],
+  Array [
+    <TreeNode
+      data={
+            Object {
+                  "children": Array [],
+                  "label": "Puma Thurman",
+                }
+      }
+      depth={1}
+/>,
+  ],
+  Array [
+    <TreeNode
+      data={
+            Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "label": "Katy Purry",
+                        },
+                      ],
+                      "label": "Miraclaw",
+                    },
+                    Object {
+                      "children": Array [],
+                      "label": "Anderson Pooper",
+                    },
+                  ],
+                  "label": "Whispurr",
+                }
+      }
+      depth={1}
+/>,
+    Array [
+      <TreeNode
+        data={
+                Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [],
+                            "label": "Katy Purry",
+                          },
+                        ],
+                        "label": "Miraclaw",
+                      }
+        }
+        depth={2}
+/>,
+      Array [
+        <TreeNode
+          data={
+                    Object {
+                              "children": Array [],
+                              "label": "Katy Purry",
+                            }
+          }
+          depth={3}
+/>,
+      ],
+    ],
+    Array [
+      <TreeNode
+        data={
+                Object {
+                        "children": Array [],
+                        "label": "Anderson Pooper",
+                      }
+        }
+        depth={2}
+/>,
+    ],
+  ],
+]
 `;

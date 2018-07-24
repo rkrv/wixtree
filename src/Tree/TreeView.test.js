@@ -28,10 +28,6 @@ describe('with data', () => {
     wrapper = null;
   });
 
-  it('renders both trees', () => {
-    expect(wrapper).toMatchSnapshot();
-  });
-
   it('renders recursively', () => {
     expect(wrapper.instance().renderRecursively()).toMatchSnapshot();
   });
