@@ -41,17 +41,17 @@ export default class TreeView extends Component {
     const nodes = [];
 
     while (queue.length) {
-      const node = queue.pop();
+      const node = queue.shift();
       nodes.push(node);
 
       if (node.data.children.length) {
         const children = node.data.children.map(child => ({ depth: node.depth + 1, data: child }));
-        queue.push(...children);
+        queue.unshift(...children);
       }
     }
 
     return nodes.map(node => {
-      let spacing = Array(node.depth).join('&nbsp;&nbsp;') + ' - ';
+      let spacing = Array(node.depth + 1).join('&nbsp;&nbsp;') + ' - ';
 
       return (
         <Fragment key={ node.data.label }>
