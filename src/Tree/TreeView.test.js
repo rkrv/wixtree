@@ -16,23 +16,7 @@ it('renders a message when no tree data exists', () => {
   expect(wrapper.text()).toBe(MSG_NO_DATA);
 });
 
-describe('with data', () => {
-  let wrapper;
-
-  beforeEach(() => {
-    wrapper = shallow(<TreeView data={ treeJson } />);
-  });
-
-  afterEach(() => {
-    wrapper.unmount();
-    wrapper = null;
-  });
-
-  it('renders recursively', () => {
-    expect(wrapper.instance().renderRecursively()).toMatchSnapshot();
-  });
-
-  it('renders iteratively', () => {
-    expect(wrapper.instance().renderIteratively()).toMatchSnapshot();
-  });
+it('renders correctly with data', () => {
+  const wrapper = shallow(<TreeView data={ treeJson } />);
+  expect(wrapper).toMatchSnapshot();
 });

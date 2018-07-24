@@ -1,439 +1,442 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with data renders iteratively 1`] = `
-Array [
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [],
-                "label": "Demi Meower",
-              },
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [],
-                    "label": "Chairman Meow",
-                  },
-                  Object {
-                    "children": Array [
-                      Object {
-                        "children": Array [],
-                        "label": "Purrfect",
-                      },
-                      Object {
-                        "children": Array [],
-                        "label": "Thunder Paws",
-                      },
-                    ],
-                    "label": "Cat-titude",
-                  },
-                ],
-                "label": "Fleas Witherspoon",
-              },
-              Object {
-                "children": Array [],
-                "label": "Puma Thurman",
-              },
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [
-                      Object {
-                        "children": Array [],
-                        "label": "Katy Purry",
-                      },
-                    ],
-                    "label": "Miraclaw",
-                  },
-                  Object {
-                    "children": Array [],
-                    "label": "Anderson Pooper",
-                  },
-                ],
-                "label": "Whispurr",
-              },
-            ],
-            "label": "Root node",
-          }
-    }
-    depth={0}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Demi Meower",
-          }
-    }
-    depth={1}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [],
-                "label": "Chairman Meow",
-              },
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [],
-                    "label": "Purrfect",
-                  },
-                  Object {
-                    "children": Array [],
-                    "label": "Thunder Paws",
-                  },
-                ],
-                "label": "Cat-titude",
-              },
-            ],
-            "label": "Fleas Witherspoon",
-          }
-    }
-    depth={1}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Chairman Meow",
-          }
-    }
-    depth={2}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [],
-                "label": "Purrfect",
-              },
-              Object {
-                "children": Array [],
-                "label": "Thunder Paws",
-              },
-            ],
-            "label": "Cat-titude",
-          }
-    }
-    depth={2}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Purrfect",
-          }
-    }
-    depth={3}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Thunder Paws",
-          }
-    }
-    depth={3}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Puma Thurman",
-          }
-    }
-    depth={1}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [],
-                    "label": "Katy Purry",
-                  },
-                ],
-                "label": "Miraclaw",
-              },
-              Object {
-                "children": Array [],
-                "label": "Anderson Pooper",
-              },
-            ],
-            "label": "Whispurr",
-          }
-    }
-    depth={1}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [],
-                "label": "Katy Purry",
-              },
-            ],
-            "label": "Miraclaw",
-          }
-    }
-    depth={2}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Katy Purry",
-          }
-    }
-    depth={3}
-/>,
-  <TreeNode
-    data={
-        Object {
-            "children": Array [],
-            "label": "Anderson Pooper",
-          }
-    }
-    depth={2}
-/>,
-]
-`;
-
-exports[`with data renders recursively 1`] = `
-Array [
-  <TreeNode
-    data={
-        Object {
-            "children": Array [
-              Object {
-                "children": Array [],
-                "label": "Demi Meower",
-              },
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [],
-                    "label": "Chairman Meow",
-                  },
-                  Object {
-                    "children": Array [
-                      Object {
-                        "children": Array [],
-                        "label": "Purrfect",
-                      },
-                      Object {
-                        "children": Array [],
-                        "label": "Thunder Paws",
-                      },
-                    ],
-                    "label": "Cat-titude",
-                  },
-                ],
-                "label": "Fleas Witherspoon",
-              },
-              Object {
-                "children": Array [],
-                "label": "Puma Thurman",
-              },
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [
-                      Object {
-                        "children": Array [],
-                        "label": "Katy Purry",
-                      },
-                    ],
-                    "label": "Miraclaw",
-                  },
-                  Object {
-                    "children": Array [],
-                    "label": "Anderson Pooper",
-                  },
-                ],
-                "label": "Whispurr",
-              },
-            ],
-            "label": "Root node",
-          }
-    }
-    depth={0}
-/>,
-  Array [
+exports[`renders correctly with data 1`] = `
+<div
+  className="split-panel"
+>
+  <div>
     <TreeNode
       data={
+        Object {
+          "children": Array [
             Object {
+              "children": Array [],
+              "label": "Demi Meower",
+            },
+            Object {
+              "children": Array [
+                Object {
                   "children": Array [],
-                  "label": "Demi Meower",
-                }
-      }
-      depth={1}
-/>,
-  ],
-  Array [
-    <TreeNode
-      data={
-            Object {
+                  "label": "Chairman Meow",
+                },
+                Object {
                   "children": Array [
                     Object {
                       "children": Array [],
-                      "label": "Chairman Meow",
-                    },
-                    Object {
-                      "children": Array [
-                        Object {
-                          "children": Array [],
-                          "label": "Purrfect",
-                        },
-                        Object {
-                          "children": Array [],
-                          "label": "Thunder Paws",
-                        },
-                      ],
-                      "label": "Cat-titude",
-                    },
-                  ],
-                  "label": "Fleas Witherspoon",
-                }
-      }
-      depth={1}
-/>,
-    Array [
-      <TreeNode
-        data={
-                Object {
-                        "children": Array [],
-                        "label": "Chairman Meow",
-                      }
-        }
-        depth={2}
-/>,
-    ],
-    Array [
-      <TreeNode
-        data={
-                Object {
-                        "children": Array [
-                          Object {
-                            "children": Array [],
-                            "label": "Purrfect",
-                          },
-                          Object {
-                            "children": Array [],
-                            "label": "Thunder Paws",
-                          },
-                        ],
-                        "label": "Cat-titude",
-                      }
-        }
-        depth={2}
-/>,
-      Array [
-        <TreeNode
-          data={
-                    Object {
-                              "children": Array [],
-                              "label": "Purrfect",
-                            }
-          }
-          depth={3}
-/>,
-      ],
-      Array [
-        <TreeNode
-          data={
-                    Object {
-                              "children": Array [],
-                              "label": "Thunder Paws",
-                            }
-          }
-          depth={3}
-/>,
-      ],
-    ],
-  ],
-  Array [
-    <TreeNode
-      data={
-            Object {
-                  "children": Array [],
-                  "label": "Puma Thurman",
-                }
-      }
-      depth={1}
-/>,
-  ],
-  Array [
-    <TreeNode
-      data={
-            Object {
-                  "children": Array [
-                    Object {
-                      "children": Array [
-                        Object {
-                          "children": Array [],
-                          "label": "Katy Purry",
-                        },
-                      ],
-                      "label": "Miraclaw",
+                      "label": "Purrfect",
                     },
                     Object {
                       "children": Array [],
-                      "label": "Anderson Pooper",
+                      "label": "Thunder Paws",
                     },
                   ],
-                  "label": "Whispurr",
-                }
+                  "label": "Cat-titude",
+                },
+              ],
+              "label": "Fleas Witherspoon",
+            },
+            Object {
+              "children": Array [],
+              "label": "Puma Thurman",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "label": "Katy Purry",
+                    },
+                  ],
+                  "label": "Miraclaw",
+                },
+                Object {
+                  "children": Array [],
+                  "label": "Anderson Pooper",
+                },
+              ],
+              "label": "Whispurr",
+            },
+          ],
+          "label": "Root node",
+        }
+      }
+      depth={0}
+      key="0"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Demi Meower",
+        }
       }
       depth={1}
-/>,
-    Array [
-      <TreeNode
-        data={
+      key="1"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Chairman Meow",
+            },
+            Object {
+              "children": Array [
                 Object {
-                        "children": Array [
-                          Object {
-                            "children": Array [],
-                            "label": "Katy Purry",
-                          },
-                        ],
-                        "label": "Miraclaw",
-                      }
+                  "children": Array [],
+                  "label": "Purrfect",
+                },
+                Object {
+                  "children": Array [],
+                  "label": "Thunder Paws",
+                },
+              ],
+              "label": "Cat-titude",
+            },
+          ],
+          "label": "Fleas Witherspoon",
         }
-        depth={2}
-/>,
-      Array [
-        <TreeNode
-          data={
+      }
+      depth={1}
+      key="2"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Chairman Meow",
+        }
+      }
+      depth={2}
+      key="3"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Purrfect",
+            },
+            Object {
+              "children": Array [],
+              "label": "Thunder Paws",
+            },
+          ],
+          "label": "Cat-titude",
+        }
+      }
+      depth={2}
+      key="4"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Purrfect",
+        }
+      }
+      depth={3}
+      key="5"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Thunder Paws",
+        }
+      }
+      depth={3}
+      key="6"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Puma Thurman",
+        }
+      }
+      depth={1}
+      key="7"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "label": "Katy Purry",
+                },
+              ],
+              "label": "Miraclaw",
+            },
+            Object {
+              "children": Array [],
+              "label": "Anderson Pooper",
+            },
+          ],
+          "label": "Whispurr",
+        }
+      }
+      depth={1}
+      key="8"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Katy Purry",
+            },
+          ],
+          "label": "Miraclaw",
+        }
+      }
+      depth={2}
+      key="9"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Katy Purry",
+        }
+      }
+      depth={3}
+      key="10"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Anderson Pooper",
+        }
+      }
+      depth={2}
+      key="11"
+    />
+  </div>
+  <div>
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Demi Meower",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "label": "Chairman Meow",
+                },
+                Object {
+                  "children": Array [
                     Object {
-                              "children": Array [],
-                              "label": "Katy Purry",
-                            }
-          }
-          depth={3}
-/>,
-      ],
-    ],
-    Array [
-      <TreeNode
-        data={
+                      "children": Array [],
+                      "label": "Purrfect",
+                    },
+                    Object {
+                      "children": Array [],
+                      "label": "Thunder Paws",
+                    },
+                  ],
+                  "label": "Cat-titude",
+                },
+              ],
+              "label": "Fleas Witherspoon",
+            },
+            Object {
+              "children": Array [],
+              "label": "Puma Thurman",
+            },
+            Object {
+              "children": Array [
                 Object {
-                        "children": Array [],
-                        "label": "Anderson Pooper",
-                      }
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "label": "Katy Purry",
+                    },
+                  ],
+                  "label": "Miraclaw",
+                },
+                Object {
+                  "children": Array [],
+                  "label": "Anderson Pooper",
+                },
+              ],
+              "label": "Whispurr",
+            },
+          ],
+          "label": "Root node",
         }
-        depth={2}
-/>,
-    ],
-  ],
-]
+      }
+      depth={0}
+      key="0"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Demi Meower",
+        }
+      }
+      depth={1}
+      key="1"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Chairman Meow",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "label": "Purrfect",
+                },
+                Object {
+                  "children": Array [],
+                  "label": "Thunder Paws",
+                },
+              ],
+              "label": "Cat-titude",
+            },
+          ],
+          "label": "Fleas Witherspoon",
+        }
+      }
+      depth={1}
+      key="2"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Chairman Meow",
+        }
+      }
+      depth={2}
+      key="3"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Purrfect",
+            },
+            Object {
+              "children": Array [],
+              "label": "Thunder Paws",
+            },
+          ],
+          "label": "Cat-titude",
+        }
+      }
+      depth={2}
+      key="4"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Purrfect",
+        }
+      }
+      depth={3}
+      key="5"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Thunder Paws",
+        }
+      }
+      depth={3}
+      key="6"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Puma Thurman",
+        }
+      }
+      depth={1}
+      key="7"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "label": "Katy Purry",
+                },
+              ],
+              "label": "Miraclaw",
+            },
+            Object {
+              "children": Array [],
+              "label": "Anderson Pooper",
+            },
+          ],
+          "label": "Whispurr",
+        }
+      }
+      depth={1}
+      key="8"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "label": "Katy Purry",
+            },
+          ],
+          "label": "Miraclaw",
+        }
+      }
+      depth={2}
+      key="9"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Katy Purry",
+        }
+      }
+      depth={3}
+      key="10"
+    />
+    <TreeNode
+      data={
+        Object {
+          "children": Array [],
+          "label": "Anderson Pooper",
+        }
+      }
+      depth={2}
+      key="11"
+    />
+  </div>
+</div>
 `;
