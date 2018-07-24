@@ -1,0 +1,53 @@
+{
+  "label": "Root node",
+  "children": [
+    {
+      "label": "Demi Meower",
+      "children": []
+    },
+    {
+      "label": "Fleas Witherspoon",
+      "children": [
+        {
+          "label": "Chairman Meow",
+          "children": []
+        },
+        {
+          "label": "Cat-titude",
+          "children": [
+            {
+              "label": "Purrfect",
+              "children": []
+            },
+            {
+              "label": "Thunder Paws",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puma Thurman",
+      "children": []
+    },
+    {
+      "label": "Whispurr",
+      "children": [
+        {
+          "label": "Miraclaw",
+          "children": [
+            {
+              "label": "Katy Purry",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Anderson Pooper",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
