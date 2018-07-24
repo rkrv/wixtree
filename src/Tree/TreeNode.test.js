@@ -7,8 +7,7 @@ it('renders without crashing', () => {
 });
 
 it('has reasonable defaultProps', () => {
-  expect(TreeNode.defaultProps.depth).toBe(0);
-  expect(TreeNode.defaultProps.data).toBeNull();
+  expect(TreeNode.defaultProps).toEqual({ depth: 0, data: null, onAdd: null });
 });
 
 it('renders nothing if no `data` prop is passed', () => {

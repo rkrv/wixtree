@@ -8,7 +8,7 @@ it('renders without crashing', () => {
 });
 
 it('has reasonable defaultProps', () => {
-  expect(TreeView.defaultProps.data).toBeNull();
+  expect(TreeView.defaultProps).toEqual({ data: null, onAdd: null });
 });
 
 it('renders a message when no tree data exists', () => {

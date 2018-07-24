@@ -63,7 +63,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={0}
       key="0"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -74,7 +74,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="1"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -103,7 +103,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="2"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -114,7 +114,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="3"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -134,7 +134,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="4"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -145,7 +145,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="5"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -156,7 +156,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="6"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -167,7 +167,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="7"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -192,7 +192,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="8"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -208,7 +208,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="9"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -219,7 +219,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="10"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -230,7 +230,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="11"
-      onAdd={[Function]}
+      onAdd={null}
     />
   </div>
   <div>
@@ -292,7 +292,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={0}
       key="0"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -303,7 +303,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="1"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -332,7 +332,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="2"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -343,7 +343,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="3"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -363,7 +363,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="4"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -374,7 +374,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="5"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -385,7 +385,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="6"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -396,7 +396,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="7"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -421,7 +421,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={1}
       key="8"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -437,7 +437,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="9"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -448,7 +448,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={3}
       key="10"
-      onAdd={[Function]}
+      onAdd={null}
     />
     <TreeNode
       data={
@@ -459,7 +459,7 @@ exports[`renders correctly with data 1`] = `
       }
       depth={2}
       key="11"
-      onAdd={[Function]}
+      onAdd={null}
     />
   </div>
 </div>

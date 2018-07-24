@@ -4,7 +4,7 @@ export default class TreeNode extends Component {
   static defaultProps = {
     depth: 0,
     data: null,
-    onAdd: () => {}
+    onAdd: null
   };
 
   state = {
@@ -19,8 +19,11 @@ export default class TreeNode extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.props.onAdd(this.input.value, this.props.data);
-    this.setState({ showForm: false });
+
+    if (this.props.onAdd) {
+      this.props.onAdd(this.input.value, this.props.data);
+      this.setState({ showForm: false });
+    }
   };
 
   renderForm() {
