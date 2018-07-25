@@ -14,15 +14,15 @@ export default class TreeView extends Component {
   };
 
   walkRecursively(node, depth = 0) {
-    const out = [];
+    const nodes = [];
 
-    out.push({ depth, data: node });
+    nodes.push({ depth, data: node });
 
-    node.children.forEach((child, i) => {
-      out.push(...this.walkRecursively(child, depth + 1));
+    node.children.forEach(child => {
+      nodes.push(...this.walkRecursively(child, depth + 1));
     });
 
-    return out;
+    return nodes;
   }
 
   walkIteratively(node) {
